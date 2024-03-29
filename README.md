@@ -11,6 +11,6 @@
 
 
 ## Login With Github
-add thes 2 in .env file, It is also included in .env.example file
-GITHUB_CLIENT_ID
-GITHUB_CLIENT_SECRET
+Add thes 2 in .env file, It is also included in .env.example file
+1. GITHUB_CLIENT_ID
+2. GITHUB_CLIENT_SECRET
