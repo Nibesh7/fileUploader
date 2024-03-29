@@ -1,0 +1,35 @@
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: 2px solid #3498db;
+    color: #3498db;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Hide the input element */
+.upload-btn-wrapper input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/* Optional: Style the filename text */
+.file-name {
+    margin-left: 10px;
+}
